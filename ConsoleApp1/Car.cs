@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     
-    sealed class Car : Vehicle, ICarManagment //Наследование
+    sealed class Car : Vehicle, ICarManagment //Наследование и с модификатором sealed(запрещает наследования от него чего-то загадочного)
     {
         private string brand; //модель 
         private int year; //год изготовления
